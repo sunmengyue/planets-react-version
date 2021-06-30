@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid rgba(246, 246, 247, 0.4);
+}
+
+.nav .nav__item {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background-color: #060624;
+  color: white;
+  margin-right: 30px;
+  color: rgba(246, 246, 247, 0.8);
+}
+
+.nav .nav__item__active {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.nav .nav__item:hover {
+  cursor: pointer;
+  color: white;
+  border-bottom: 1px solid white;
+}

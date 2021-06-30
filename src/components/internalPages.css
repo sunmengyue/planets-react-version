@@ -1,0 +1,23 @@
+.internal__pages {
+  display: flex;
+  flex-direction: column;
+}
+
+.internal__pages > button {
+  color: white;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  text-align: left;
+  text-transform: uppercase;
+  border: 1px solid rgba(246, 246, 247, 0.4);
+  background-color: #060624;
+  letter-spacing: 2.5px;
+}
+.internal__pages > button:hover {
+  cursor: pointer;
+  background-color: #542ba5;
+}
+
+.internal__pages .active {
+  background-color: #542ba5;
+}
