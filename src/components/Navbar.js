@@ -9,7 +9,7 @@ function Navbar({ planets }) {
       <div className="nav">
         {planets.map((planet, i) => {
           return (
-            <Link to={`/${planet}`} className="nav__item" key={i}>
+            <Link to={`/planets/${planet}`} className="nav__item" key={i}>
               {planet}
             </Link>
           );

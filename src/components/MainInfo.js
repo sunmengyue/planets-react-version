@@ -2,7 +2,7 @@ import React from 'react';
 import BtnsToInternalInfo from './BtnsToInternalInfo';
 import './MainInfo.css';
 
-function MainInfo() {
+function MainInfo({ planet }) {
   return (
     <div className="main__info">
       <h1 id="planet__name">Mercury</h1>
